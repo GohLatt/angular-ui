@@ -1,0 +1,12 @@
+<div class="shooping_list">
+  <div>
+    <p class="title">Shooping List</p>
+    <div class="list_container">
+      <a href="#" *ngFor="let item of ingredientArr">
+        <span>{{ item.name }}</span>
+        <span>({{ item.amount }})</span>
+      </a>
+    </div>
+  </div>
+  <app-shooping-edit></app-shooping-edit>
+</div>

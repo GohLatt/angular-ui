@@ -1,0 +1,12 @@
+<div class="recepie_list">
+  <button class="btn btn-primary">New Recepie</button>
+  <div class="recepie_card">
+    <a href="#" *ngFor="let recepie of recepieArr">
+      <div class="title">
+        <p class="heading">{{ recepie.name }}</p>
+        <p>{{ recepie.description }}</p>
+      </div>
+      <img [src]="recepie.img" alt="logo" />
+    </a>
+  </div>
+</div>

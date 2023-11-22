@@ -1,0 +1,49 @@
+.edit_form {
+  display: flex;
+  gap: 24px;
+}
+.edit_form div {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  font-size: 18px;
+}
+
+.edit_form div input {
+  padding: 8px 16px;
+  outline: none;
+  border: 1px solid #999;
+}
+
+.edit_form div input:focus {
+  outline: 1px solid #facc15;
+}
+
+.btn-group {
+  margin-top: 24px;
+  display: flex;
+  gap: 24px;
+}
+
+.btn-primary {
+  font-size: 18px;
+  padding: 8px 24px;
+
+  border: none;
+  outline: none;
+  border-radius: 4px;
+  color: #f9fafb;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.add {
+  background-color: #2563eb;
+}
+
+.delete {
+  background-color: #ef4444;
+}
+.clear {
+  background-color: #facc15;
+}
